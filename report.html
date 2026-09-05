@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Laporan Kerusakan</title>
+</head>
+<body>
+
+    <header>
+        <h1>Laporan Kerusakan Inventaris</h1>
+        <nav>
+            <a href="index.html">Beranda</a> |
+            <a href="rooms.html">Daftar Ruangan</a> |
+            <a href="inventory.html">Inventaris</a> |
+            <a href="report.html">Laporan Kerusakan</a> |
+            <a href="documentation.html">Dokumentasi</a> |
+            <a href="team.html">Profil Tim</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Form Laporan</h2>
+
+            <!-- Catatan: form ini hanya tampilan HTML.
+                 Belum menyimpan data karena proyek belum menggunakan backend. -->
+
+            <form>
+                <p>
+                    <label for="ruangan">Nama Ruangan:</label><br>
+                    <input type="text" id="ruangan" name="ruangan"
+                           placeholder="Contoh: Kelas 7A">
+                </p>
+
+                <p>
+                    <label for="barang">Nama Barang:</label><br>
+                    <input type="text" id="barang" name="barang"
+                           placeholder="Contoh: Kursi">
+                </p>
+
+                <p>
+                    <label for="jumlah">Jumlah Barang Rusak:</label><br>
+                    <input type="number" id="jumlah" name="jumlah" min="1">
+                </p>
+
+                <p>
+                    <label for="kondisi">Kondisi/Keterangan:</label><br>
+                    <textarea id="kondisi" name="kondisi" rows="5" cols="40"
+                              placeholder="Jelaskan kondisi barang..."></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Kirim Laporan</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+Masukkan foto aktual hasil observasi ke folder images/.
